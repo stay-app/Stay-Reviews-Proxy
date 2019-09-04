@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Combined</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+
+  <body>
+    <div id="Gallary"></div>
+    <div id="Reviews"></div>
+    <div id="Calendar"></div>
+    <div id="Nearby"></div>
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="http://localhost:5002/bundle.js"></script>
+    <!-- <script src="http://localhost:5003/bundle.js"></script> -->
+
+
+        <script>
+            // ReactDOM.render(
+            //   React.createElement(Gallary),
+            //   document.getElementById('Gallary')
+            // );
+            ReactDOM.render(
+              React.createElement(Reviews.default),
+              document.getElementById('Reviews')
+            // );
+            // ReactDOM.render(
+            //   React.createElement(Calendar),
+            //   document.getElementById('Calendar')
+            );
+            // console.log(Nearby)
+            // ReactDOM.render(
+            //   React.createElement(Nearby.default),
+            //   document.getElementById('Nearby')
+            // );
+        </script>
+  </body>
+</html>
