@@ -16,14 +16,15 @@
     <script src="https://unpkg.com/styled-components/dist/styled-components.min.js"></script>
     <script src="http://localhost:5001/bundle.js"></script>
     <script src="http://localhost:5002/bundle.js"></script>
+    <script src="http://localhost:5003/bundle.js"></script>
     <script src="http://localhost:5004/bundle.js"></script>
 
 
         <script> 
-            // ReactDOM.render(
-            //   React.createElement(Gallary),
-            //   document.getElementById('Gallary')
-            // );
+            ReactDOM.render(
+              React.createElement(Gallary),
+              document.getElementById('Gallary')
+            );
             ReactDOM.render(
               React.createElement(Reviews.default),
               document.getElementById('Reviews')
@@ -32,8 +33,6 @@
               React.createElement(Reservation.default),
               document.getElementById('Reservation')
             );
-
-            console.log(Nearby)
           
             ReactDOM.render(
               React.createElement(Nearby.default),
